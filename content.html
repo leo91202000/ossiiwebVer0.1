@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+     <title>晟鑫科技股份有限公司-聯絡我們</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link href="css/bootstrap.css"rel="stylesheet"type="text/css">
+    <link href="css/bootstrap-responsive.css"rel="stylesheet"type="text/css">
+    <link href="css/docs.css"rel="stylesheet"type="text/css">
+    <link href="css/ossii.css"rel="stylesheet"type="text/css">
+    <script src="js/jquery-1.7.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/googlemaps.js"></script>
+</head>
+
+<body>
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner" id="navbar-inner">
+            <div class="container" >
+                 <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="nav-collapse collapse">
+                    <ul class=" nav nav-pills"> 
+                        <li><a id="ossiilogo" href="index.html"><img src="img/favicon.png"/></a></li>
+                        <li><a href="index.html"><strong id="menu_company_name">晟鑫科技股份有限公司</strong></a></li>
+                        <li><a href="index.html#new" ><i class="icon-exclamation-sign "></i>最新消息</a></li>
+                        <li><a href="aboutossii.html"><i class="icon-star "></i>關於晟鑫</a></li>
+                        <li class='active'><a href="content.html" ><i class="icon-envelope "></i>聯絡我們</a></li>
+                        <li><a href="human_resource.html"><i class="icon-user "></i>人力招募</a></li>
+<!--
+                        <li><a rel="nofollow" target="_blank" id="idPlurk" href="http://plurk.com/?qualifier=shares&status=[分享] http://www.ossii.com.tw/?p=<?php the_ID(); ?> (<?php the_title(); ?>)"><img title="分享到噗浪！" src="img/Plurk.png" /></a>
+                        <li><a rel="nofollow" target="_blank" href="http://www.facebook.com/share.php?u=http://www.ossii.com.tw/?p=<?php the_ID(); ?>"><img title="分享到臉書！" src="img/Facebook.png" /></a>
+                        <li><a rel="nofollow" target="_blank" href="http://twitter.com/home?status=[推薦] <?php the_title(); ?> http://www.ossii.com.tw/?p=<?php the_ID(); ?>"><img title="分享到推特！" src="img/Twitter.png" /></a>
+-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row" id="rowtop">
+            <div class="span7">
+                <form class="well">
+                    <h3 class="font-center"><i class="icon-share"></i>聯絡我們</h3>
+                    <p class="font-center">如果您需要聯絡我們，請填寫下列表單，我們會儘快為您處理</p>
+                    <hr>
+                    <div>
+                        <div class="span6">
+                            <i class="icon-user"></i>姓名
+                        </div>
+                        <div class="span6">
+                            <input class="span6 name" type="text">
+                        </div>
+                    </div>
+                    <div> 
+                        <div class="span6">
+                            <i class="icon-envelope"></i>E-mail
+                        </div>
+                        <div class="span6">
+                            <input class="span6 email" type="text">
+                        </div>  
+                    </div> 
+                    <div>
+                        <div class="span6">
+                            <i class="icon-pencil"></i>留言給我們
+                        </div>
+                        <div class="span6">
+                            <textarea class="span6"></textarea>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary" type="submit"><i class=" icon-upload icon-white"></i>送出</a>
+                </form>
+            </div>
+            <div class="span5">
+<!--
+                <h3 class="font-center">聯絡資訊</h3>
+                <hr>                       
+-->
+                <abbr title="Phone"><p>TEL:(02)2799-0696</p></abbr>                    
+                <abbr title="FAX"><p>FAX:(02)2799-0579</p>                          
+                <address>地址:台北市內湖區陽光街321巷8號10樓</address> 
+                <a href="mailto:service@ossii.com.tw" target="_blank" class="btn btn-primary"><i class="icon-envelope icon-white"></i>技術洽詢</a>
+                <a href="mailto:sales@ossii.com.tw" target="_blank" class="btn btn-primary"><i class="icon-envelope icon-white" ></i>業務洽詢</a>
+                <br>
+                <br>
+                <h3>公司地圖</h3>
+                <script>
+                    $(function () {
+                        var latlng = new google.maps.LatLng(25.07300, 121.57880);//座標
+                        var mapOptions = {
+                            zoom: 16, //初始放大倍數
+                            center: latlng, //中心點所在位置
+                            mapTypeId: google.maps.MapTypeId.ROADMAP //正常2D道路模式
+                        };
+                        var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+                        var marker = new google.maps.Marker({
+                            position: latlng, //經緯度
+                            title: "晟鑫科技股份有限公司", //顯示文字
+                            map: map //指定要放置的地圖對象
+                        });
+                    });
+                </script>
+                <div id="map_canvas"></div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+            <p>地址: 台北市內湖區陽光街321巷8號10樓 &nbsp | &nbsp Tel: (02)2799-0696 &nbsp | &nbsp Fax: (02)2799-0579 &nbsp | &nbsp <a id="footer-email" href="mailto:service@ossii.com.tw">E-mail</a></p>
+            <p>晟鑫科技股份有限公司 著作權所有 &nbsp | &nbsp Copyright ©2012 OSS Integral Institute Co., Ltd all rights reserved.</p>
+    </footer>
+
+</body>
+</html>

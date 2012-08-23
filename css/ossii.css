@@ -1,0 +1,168 @@
+body{
+    outline: none; /* for Firefox */
+    line-height:160%;
+    padding: 10px;
+}
+
+.footer{
+    background-color: #fafafa;
+    background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+    background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    background-repeat: repeat-x;
+    border-top: 1px solid #d4d4d4;
+    border-radius: 4px;
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    background-color:  #FAFAFA; 
+    margin-top:15px;
+}
+
+.footer p{
+    text-align:center;
+    color:black;
+    margin:0;
+}
+
+#footer-email{
+    text-align:center;
+    color:black;
+}
+
+.alert {
+    margin-bottom: 0px;
+    padding: 2px 35px 2px 0px;
+    color: #111111;
+    background-color: #EEEEEE; 
+    border-radius: 4px;
+}
+ 
+ .alert-info {
+    background-color: #DDDDDD;
+    border-color: #de9ecb;
+    color: #111111;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+li{
+  line-height: 200%;
+}
+
+.pull-left{
+    margin:30px 10px 30px 10px;
+}
+
+.slide_show{
+    width:100%;
+}
+
+.icon-th-list{
+    margin-right: 6px;
+}
+
+#map_canvas{
+    width: 100%;
+    height:300px;
+}
+
+textarea{
+    height:200px;
+}
+
+h4{
+    padding-top:40px;
+}
+
+#rowtop{
+    padding:40px 0px 0px 0px;
+}
+
+.rowtop{
+    padding:40px 0px 0px 0px;
+}
+
+.thumbnail {
+    border: 0px;
+}
+
+#ossiilogo{
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+
+.font-center{
+    text-align:center;
+}
+
+
+.span12 > img{
+    text-align:center;
+}
+#test1{
+margin-bottom:0;
+}
+
+i{
+    padding-left:6px;
+    margin-left: 6px;
+}
+
+.blingbling{
+    -moz-animation-duration: 1.5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: downloadButton;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: downloadButton;
+}
+
+.shadow {
+    border-radius: 4px;
+    box-shadow: 0 0 2px rgba(50, 50, 50, 0.5);
+}
+
+.alert_index {
+    padding: 10px 10px 10px 10px;
+    background-color: #EEEEEE; 
+    border-radius: 10px;
+}
+
+.right-border{/*出版物右側border*/
+    border-right-style:solid;
+    border-width:6px;
+    border-color:#E5E5E5
+}
+
+.bgcolorbox1{
+    padding-right: 0px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    border: 0px;
+    color: #111111;
+    border-radius: 10px 10px 10px 10px;
+    border:solid 1px #e5e5e5;
+    padding: 0px;
+}
+
+.bgcolorbox1 h4{
+    color: #000000;
+    background-color: #dddddd;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 30px;
+    border:solid 1px #e5e5e5;
+}
+
+.workborder{
+    border:solid 1px #e5e5e5;
+}
+
+#menu_company_name,menu_company_name{
+    font-size:25px;
+}
+
+dt{
+    margin-left: 6px;
+}
